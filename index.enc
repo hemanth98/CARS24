@@ -1,0 +1,22 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title> project </title>
+<script src = "javascriptfunctions.js"></script>
+</head>
+<body>
+<hr>
+
+	<div id = AdHocSection class = "section">
+	<h2 id = "AdHocTitle" class = "title"> Enter your Query </h2>
+	<form action = "runQuery.php" method="post" target = "_blank">
+		<strong>Please enter your query below: </strong> <br/> 
+		<textarea name="queryBox" rows="20" cols="100" id = "queryBox"></textarea><br/>
+		<button class = "textBoxButton" type = "button" onClick="clearTextArea();">Clear</button>
+		<input class = "textBoxButton" type = "submit">
+	</form>
+	</div>
+
+	<hr>
+	</body>
+</html>
